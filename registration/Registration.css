@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbody {
+    height:100% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../pf\ wall.jpeg')no-repeat center center/cover;
+
+}
+
+.register {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(174, 238, 227);
+    background: radial-gradient(circle, rgba(174,238,227,1) 31%, rgba(52,102,162,1) 100%); 
+
+    margin-top: 8%;
+    margin-bottom: 8%;
+
+}
+
+.register h1 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.register form {
+    font-size: 20px;
+}
+
+.register form .form-group {
+    margin-bottom: 12px;
+}
+
+/* .register form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+} */
+
+select option {
+    background-color: rgb(53, 59, 57);
+    color: white;
+}
+#register{
+    font-size: 15px;
+    float: center;
+    justify-content: center;
+    display: flex;
+}
+#register:hover{
+    background-color: red;
+}

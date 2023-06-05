@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbody {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('../background.png')no-repeat center center/cover;
+
+}
+
+.login {
+    width: 360px;
+    height: min-content;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgb(174, 238, 227);
+    /* background: radial-gradient(circle, rgba(174,238,227,1) 31%, rgba(52,102,162,1) 100%);  */
+
+
+}
+
+.login h1 {
+    font-size: 36px;
+    margin-bottom: 25px;
+}
+
+.login form {
+    font-size: 20px;
+}
+
+.login form .form-group {
+    margin-bottom: 12px;
+}
+
+.login form input[type="submit"] {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+select option {
+    background-color: rgb(53, 59, 57);
+    color: white;
+}
+#register{
+    font-size:15px;
+    float: right;
+}
+#register:hover{
+    color: red;
+}
+.login form input[type="submit"]:hover{
+
+    background-color: rgb(235, 15, 15);
+    font-weight: 500;
+}
+#signin{
+
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    
+}
+#signin:hover{
+    background-color: red;
+}
