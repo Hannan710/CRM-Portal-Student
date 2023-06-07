@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root {
+    --offcanvas-width: 200px;
+    --topNavbarHeight: 88px;
+    --nav: radial-gradient(circle, rgb(29, 2, 83) 31%, rgb(34, 12, 87) 100%);
+  }
+  .navbar {
+    /* background-color:rgb(95, 161, 169); */
+    background:var(--nav)
+    /* background-color: rgb(76, 76, 125); */
+  
+  }
+
+  
+  
+  .container .navbar-brand img {
+    height: 70px;
+    width: 70px;
+  }
+  
+  .container .dropdown #dropdownMenuLink {
+    font-weight: bolder;
+    color: rgb(2, 1, 1);
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+  }
+
+
+  
+  /* ----------- */
+  #sidebar_btn{
+    margin-left: 16px;
+    background: transparent;
+    
+  }
+  #offcanvasLeft{
+    width: var(--offcanvas-width);
+  }
+  .sidebar_profile-list{
+    display: none;
+    
+  }
+  .sidebar_profile_hover{
+    cursor: pointer;
+  }
+
+
+  .sidebar_profile-list li a{
+
+    line-height:25px;
+    /* text-align: center; */
+    /* text-decoration: none; */
+    color: gray;
+
+
+  }
+  .sidebar_profile_hover:hover .sidebar_profile-list{
+    display: block !important;
+    cursor: pointer;
+    color: red;
+  }
+  .sidebar_logout_button{
+    margin-top: 33px;
+    text-align: center;
+    border: 1px solid lightsteelblue;
+  }
+  .sidebar_logout_button a{
+    text-decoration: none;
+    
+  }
+  .sidebar_logout_button a:hover{
+    color: red;
+  }
+  /* -------------------------------- */
+.stu_enrol {
+    margin-top: 3rem;
+    height: 350px;
+  
+}
+.stu_enrol .stud_list{
+    float: right;
+}
