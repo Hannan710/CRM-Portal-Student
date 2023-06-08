@@ -29,15 +29,12 @@
 <body>
   <!--Creating Navbar-->
   <nav class="navbar navbar-light bg-light">
+
+    <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasLeft"
+    aria-controls="offcanvasLeft" id="sidebar_btn"><i class="fa fa-bars" style="color: black;"></i></button>
+
     <div class="container">
 
-      <!-- offcanvas trigger -->
-
-      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvasExample"
-        aria-controls="offcanvasExample">
-        <span class="navbar-toggler-icon"></span>
-      </button> -->
-      <!-- offcanvas trigger button -->
 
       <span class="navbar-text me-auto">
         <h3 style="color: white;"><span style="color:rgb(66, 218, 66); font-size: 40px;">{</span>Programmer Forces<span
@@ -109,4 +106,91 @@
 
 </div>
 </div>
+
+ <!-- ----------------------------------------- -->
+ <!--OFFCANVAS Start-->
+
+ <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasLeft" aria-labelledby="offcanvasLeftLabel">
+  <div class="offcanvas-header">
+      <h5 id="offcanvasLeftLabel">List Chat</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body bg-dark">
+
+      <nav class="navbar-dark ">
+          <ul class="navbar-nav">
+              <li>
+                  <div class="text-muted small fw-bold text-uppercase px-3">
+                      CORE
+                  </div>
+              </li>
+              <li>
+                  <a href="../Dashboard/dashboard1.html" class="nav-link px-3 active my-4">
+                      <span class="me-2"><i class="bi bi-speedometer2"></i></span>
+                      <span>Dashboard</span>
+                  </a>
+              </li>
+
+              <hr style="color:white">
+              <!-- ----------------------- -->
+
+              <!--sidebar interface start-->
+              <li>
+                  <div class="text-muted small fw-bold text-uppercase px-3">
+                      INTERFACE
+                  </div>
+              </li>
+
+
+              <li class="sidebar_profile_hover">
+                  <div class="nav-link px-3 active my-4 d-block">
+                      <span class="me-2"><i class="bi bi-people-fill"></i></span>
+                      Profile &nbsp; <span> + </span>
+                  </div>
+                  <ul class="sidebar_profile-list">
+                      <li>
+                          <a href="../My profile/myprofile.html"> My Profile</span></a>
+                      </li>
+                      <li> <a href="../Change password/changepass.html"> Change Password</span></a></li>
+                  </ul>
+              </li>
+
+              <li class="sidebar_profile_hover">
+                  <div class="nav-link px-3 active my-4 d-block">
+                      <span class="me-2"><i class="bi bi-book"></i></span>
+                      Pages &nbsp; <span> + </span>
+                  </div>
+                  <ul class="sidebar_profile-list">
+                      <li>
+                          <a href="../Configuration Page/config.html"> Configuration Page</span></a>
+                      </li>
+                      <li> <a href="#"> Table List</span></a></li>
+                  </ul>
+              </li>
+
+              <hr style="color:white">
+              <!--sidebar interface end-->
+              <!-- ---------------------------------- -->
+          </ul>
+          <div class="sidebar_logout_button">
+              <a href="../login/LoginPage.html">LOGOUT</a>
+          </div>
+      </nav>
+  </div>
 </div>
+
+<!--OFFCANVAS End-->
+<!-- --------------------- -->
+
+
+</div>
+
+
+<footer class="bg-dark py-2">
+  <div class="container text-light text-center">
+    <div class="text-white-50">&copy; Copyright by BUNNY Production. All right are Reserved.</div>
+  </div>
+</footer>
+
+</body>
+</html>

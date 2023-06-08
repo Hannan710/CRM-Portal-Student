@@ -35,3 +35,47 @@
   line-height: 3rem;
 
 }
+#sidebar_btn{
+  margin-left: 16px;
+  background: transparent;
+  
+}
+#offcanvasLeft{
+  width: var(--offcanvas-width);
+}
+.sidebar_profile-list{
+  display: none;
+  
+}
+.sidebar_profile_hover{
+  cursor: pointer;
+}
+
+
+.sidebar_profile-list li a{
+
+  line-height:25px;
+  /* text-align: center; */
+  /* text-decoration: none; */
+  color: gray;
+
+
+}
+.sidebar_profile_hover:hover .sidebar_profile-list{
+  display: block !important;
+  cursor: pointer;
+  color: red;
+}
+.sidebar_logout_button{
+  margin-top: 33px;
+  text-align: center;
+  border: 1px solid lightsteelblue;
+}
+.sidebar_logout_button a{
+  text-decoration: none;
+  
+}
+.sidebar_logout_button a:hover{
+  color: red;
+}
+/* -------------------------------- */
